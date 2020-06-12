@@ -40,6 +40,7 @@ static void do_net_connected() {
     ftpvita_add_device("ur0:");
     ftpvita_add_device("uma0:");
     ftpvita_add_device("imc0:");
+    ftpvita_add_device("xmc0:");
 
     /*ftpvita_add_device("os0:");
     ftpvita_add_device("pd0:");
@@ -47,13 +48,13 @@ static void do_net_connected() {
     ftpvita_add_device("tm0:");
     ftpvita_add_device("ud0:");
     ftpvita_add_device("vd0:");
-    ftpvita_add_device("vs0:");*/
+    ftpvita_add_device("vs0:");
 
     ftpvita_add_device("app0:");
     ftpvita_add_device("savedata0:");
     
     ftpvita_add_device("music0:");
-    ftpvita_add_device("photo0:");
+    ftpvita_add_device("photo0:");*/
         all_is_up = 1;
     }
 }
